@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.exampe.android.appportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        style="@style/ProjButton"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"
+        android:text="popular movies"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        style="@style/ProjButton"
+        android:text="stock hawk"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        style="@style/ProjButton"
+        android:text="build it bigger"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        style="@style/ProjButton"
+        android:text="make your app material"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:onClick="sendMessage"
+         />
+
+    <Button
+        style="@style/ProjButton"
+        android:text="go ubiquitous"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:onClick="sendMessage"
+        />
+
+
+    <Button
+        style="@style/ProjButton"
+        android:text="capstone"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:onClick="sendMessage"
+        />
+
+</RelativeLayout>
