@@ -10,5 +10,7 @@ Test connector usage:
 6. Start testing your workflows by initiating connector tasks from SMS client calls
 
 Note: Before running the test connector, you will need to add the compiled classes to the current classpath by doing below:
-       export CLASSPATH=`brazil-path build.classpath`;                
-       export CLASSPATH=$CLASSPATH:./build/lib/AWSServerMigrationSDKJavaClient-1.0.jar;
+
+export CLASSPATH=`brazil-path build.classpath`;                
+
+export CLASSPATH=$CLASSPATH:./build/lib/AWSServerMigrationSDKJavaClient-1.0.jar;
