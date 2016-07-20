@@ -11,8 +11,7 @@ Test connector usage:
 
 Note: Before running the test connector, you will need to add the compiled classes to the current classpath by doing below:
 
-export CLASSPATH=`brazil-path build.classpath`;                
-
+export CLASSPATH=`brazil-path build.classpath`;  
 export CLASSPATH=$CLASSPATH:./build/lib/AWSServerMigrationSDKJavaClient-1.0.jar;
 
 For more information:
