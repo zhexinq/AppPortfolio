@@ -16,6 +16,7 @@ export CLASSPATH=`brazil-path build.classpath`;
 export CLASSPATH=$CLASSPATH:./build/lib/AWSServerMigrationSDKJavaClient-1.0.jar;
 
 For more information:
+
 Test connector wiki: https://w.amazon.com/bin/view/ServerMigrationService/TestConnector/
 Contact: zxq@amazon.com
 
